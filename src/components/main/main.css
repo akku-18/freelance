@@ -1,0 +1,113 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#myVideo{
+    width:100%;
+    height: 10%;
+}
+
+.bgText{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    right:50%;
+    color: white;
+}
+
+.bgTextHead{
+    font-size: 40px;
+}
+
+.bgTextList{
+    padding-left: 25px;
+    font-size: 13px;
+}
+
+.mainHire{
+    background-color:#960ac8	;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.earnMoney{
+    background-color:#df00c1	;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.mainContainer2{
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 5%;
+}
+
+.mainContainerLine{
+    margin-top: 1%;
+}
+
+.mainDiv1{
+    margin-top: 4%;
+}
+
+.mainDiv1Heading{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+
+.div1Articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div1Article{
+    flex: 2;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+
+
+.div1ArticleHeadWrapper{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div1ArticleImg{
+    width: 40px;
+    height: 40px;
+    /* margin-left: 10px; */
+    padding: 10px;
+}
+
+.div1ArticleHead{
+    flex: 1;
+    margin-left: 1px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.div1ArticleText{
+    margin-top: 20px;
+    /* margin-right: 50%; */
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

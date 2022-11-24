@@ -1,0 +1,26 @@
+.footer{
+    height: 100px;
+    width: 98%;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.footerContainer{
+    margin: 10px;
+    padding: 20px 80px;
+    display: flex;
+}
+
+.instaLogo{
+    margin-left: 10px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.footerLine{
+    margin: 0px  80px;
+}
+

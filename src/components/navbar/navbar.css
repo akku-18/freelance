@@ -1,0 +1,17 @@
+.container{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    justify-content: space-around;
+    background-color: #A020F0;
+    color: white;
+}
+
+.findJobs, .HireFreelancers, .about, .resources{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+

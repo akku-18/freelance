@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    top: 0;
+    z-index: 999;
+    border-radius: 10px;
+}
+
+.topbarLeft{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.logo{
+    margin-right: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.topbarCenter{
+    flex: 3;
+    margin-left: 100px;
+}
+
+.searchBar{
+    width: 100%;
+    height: 30px;
+    background-color: #D8D8D8	;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon{
+    margin-left: 5px;
+}
+
+.searchInput{
+    border: none;
+    background-color: lightgray;
+    width: 70%;
+}
+
+
+.searchInput:focus{
+    outline: none;
+}
+
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logIn{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.signUp, .howiItWorks, .browseJobs{
+    cursor: pointer;
+}
+
+
+
+.postProject{
+    /* background-color: #FF10F0; */
+    background-color:#df00c1	;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+
